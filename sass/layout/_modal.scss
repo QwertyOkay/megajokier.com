@@ -1,7 +1,7 @@
 $duration: 250ms;
 $function: cubic-bezier(0.4, 0, 0.2, 1);
 $buttons-color: #014039;
- $bc-color: linear-gradient(90deg, hsla(289deg, 26%, 25%, 0.88) 0%, hsl(37deg, 44%, 10%) 35%, rgba(40, 6, 6, 0.57) 100%);
+ $bc-color: linear-gradient(90deg, hsla(289deg, 26%, 25%, 0.88) 0%, hsl(37deg, 44%, 10%) 35%, rgb(40 6 6) 100%);
 $modalTitle: #fff;
 
 $main-title-color: #ffffff;
@@ -1967,4 +1967,17 @@ height: 100%;
 .modal__margpad {
   margin-top: 40px;
   padding: 0px;
+}
+
+
+.modaldesk__position {
+  position: absolute;
+  left: 63%!important;
+  border-radius: 5px;
+}
+
+.formbox-mb {
+  @media screen and (min-width: 1200px) {
+  margin-bottom: 55px;
+  }
 }
