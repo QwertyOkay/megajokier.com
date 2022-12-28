@@ -1059,13 +1059,7 @@ input::placeholder {
 }
 
 .game__bg {
-  background-image: linear-gradient(
-      90deg,
-      rgb(63 147 226 / 32%) 0%,
-      rgb(84 229 248 / 30%) 35%,
-      rgb(255 208 0 / 47%) 100%
-    ),
-    url("../../img/Background.jpg");
+  background-image: linear-gradient(90deg, rgba(63, 147, 226, 0.09) 0%, rgba(84, 229, 248, 0.05) 35%, rgba(255, 208, 0, 0.2196078431) 100%),url("../../img/Background.jpg");
   background-size: cover;
 }
 
