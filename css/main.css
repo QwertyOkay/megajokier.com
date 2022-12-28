@@ -760,7 +760,7 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  height: 95vh !important;
+  height: 90vh !important;
   top: 29%;
   left: 50%;
   background-size: 100%;
@@ -2912,7 +2912,7 @@ u, ins {
   align-items: center;
   justify-content: center;
   position: absolute;
-  height: 95vh !important;
+  height: 90vh !important;
   top: 29%;
   left: 50%;
   background-size: 100%;
@@ -4573,7 +4573,7 @@ a:hover {
   line-height: 1.3;
   font-weight: 700;
   text-shadow: 0 0 8px black;
-  color: #faf8f9;
+  color: #e1f9ff;
 }
 
 .hero__flexbox {
